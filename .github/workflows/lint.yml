@@ -1,3 +1,5 @@
+
+# Name of workflow
 name: lint
 
 on:
@@ -12,4 +14,4 @@ jobs:
 #      - uses: actions/checkout@v2
 
       - name: Run linter
-        uses: make lint
+        run: make lint
